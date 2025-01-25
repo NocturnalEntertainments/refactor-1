@@ -6,10 +6,6 @@ public class ParticleSys : MonoBehaviour
 
     public void PlayParticleEffect()
     {
-        if (particEffect != null && !particEffect.isPlaying)
-        {
-            particEffect.Stop();
-            particEffect.Play();
-        }
+        particEffect.Play();
     }
 }
